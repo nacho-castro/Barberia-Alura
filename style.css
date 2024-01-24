@@ -1,0 +1,340 @@
+header {
+    background-color: #BBBBBB;
+    padding: 15px 0;
+}
+
+header #logo{
+    height: 100px;
+}
+
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fefefe;
+}
+
+.caja {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    padding: 0 0 0 50px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: #f9a806;
+}
+
+/*CSS para la Home*/
+.banner{
+    width: 100%;
+    height: 500px;
+}
+
+.principal{
+    background-color: #fefefe;
+    padding: 3em 3em 0 3em;
+    width: 940px;
+    margin: 0 auto;    
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p{
+    margin: 0 0 1em;
+    font-size: 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 30px 0;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#fefefe,#c3c3c3);
+    
+}
+
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.diferenciales{
+    padding: 1em 0;
+    background: #c3c3c3;
+}
+
+.contenido-diferenciales{
+    width: 740px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.item{
+    line-height: 2;
+    transition: 400ms;
+}
+
+.item:before{
+    content: "★ ";
+}
+
+.item:hover{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.img-diferencial{
+    width: 50%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 5px #000000;
+}
+
+.img-diferencial:hover{
+    opacity: 80%;
+}
+
+.video{
+    width: 550px;
+    margin: 3em auto;
+}
+
+/*CSS para productos.html*/
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.productos li:hover {
+    border-color: #c78c19;
+}
+
+.productos li:active {
+    border-color: #f9a806;
+}
+
+.productos h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.productos li:hover h2 {
+    font-size: 30px;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/*CSS para contacto.html*/
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#form-container{
+    width: 70%;
+    flex: 1;
+    margin-right: 0px; /* Espacio entre el formulario y la tabla */
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    width: 100%;
+    margin: 40px 0px 40px 100px;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0px 0px 20px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0px 0px 20px;
+    padding: 10px 20px;
+    width: 60%;
+}
+
+.checkbox{
+    margin: 20px 0px;
+    font-size: 17px;
+}
+
+form select{
+    font-size: 16px;
+    padding: 6px;
+    margin: 0px;
+}
+
+.enviar{
+    width: 65%;
+    margin: 0px 0px 20px;
+    padding: 10px 20px;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #c78c19;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: #f9a806; 
+    font-size: 20px;
+    transform: scale(1.02);
+}
+
+table{
+    width: 30%; /* Ancho automático basado en el contenido */
+    display: inline-block;
+    vertical-align: top;
+    padding: 50px 0px;
+    font-size: 22px;
+}
+
+thead{
+    background: #c78c19;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+/*FOOTER*/
+footer {
+    text-align: center;
+    background: url(images/bg.jpg);
+    padding: 20px;
+
+    bottom: 0;
+}
+
+footer p {
+    color: white;
+    font-size: 13px;
+}
+
+footer img{
+    height: 140px;
+}
+
+/*Para celulares*/
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    nav li {
+        display: inline;
+        padding: 0 0 0 10px;
+    }
+
+    .caja, .principal, .productos, .contacto, .mapa-contenido, .contenido-diferenciales, footer, .video{
+        width: auto;
+    }
+
+    .lista-diferenciales, .img-diferencial{
+        width: 100%;
+    }
+
+    .contacto, .productos{
+        display: block;
+    }
+
+    .productos li{
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    table{
+        margin: 0 20%;
+    }
+}
