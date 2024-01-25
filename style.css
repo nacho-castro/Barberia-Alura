@@ -309,11 +309,12 @@ footer img{
 
     nav{
         position: static;
+        font-size: 5px;
     }
 
     nav li {
         display: inline;
-        padding: 0 0 0 10px;
+        padding: 0px 4px;
     }
 
     .caja, .principal, .productos, .contacto, .mapa-contenido, .contenido-diferenciales, footer, .video{
